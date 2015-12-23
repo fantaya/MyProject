@@ -1,0 +1,456 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ko" lang="ko">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<title>링크톡-합리적인 팀 커뮤니케이션의 완성</title>
+	<meta name="name" content="content" />
+	<meta name="author" content="Pentabreed" />
+	<link rel="stylesheet" type="text/css" href="../../styles/front/frontStyle.css" media="screen" />
+	<link rel="stylesheet" type="text/css" href="../../styles/front/slider.css" media="screen" />
+	<script type="text/javascript" src="../../scripts/lib/jquery-min.js"></script>
+	<script type="text/javascript" src="../../scripts/lib/jquery.easing.1.2.js"></script>
+	<script type="text/javascript" src="../../scripts/lib/jquery.anythingslider.js"></script>
+	<script type="text/javascript" src="../../scripts/front/ui.js"></script>
+	<script type="text/javascript" src="../../scripts/front/common.js"></script>
+	<script type="text/javascript" src="../../scripts/front/showroom.js"></script>
+
+	<script type="text/javascript">
+
+		function formatText(index, panel) {
+		  return index + "";
+		}
+
+		$(function () {
+
+			$('.anythingSlider').anythingSlider({
+				easing: "easeInOutExpo",        // Anything other than "linear" or "swing" requires the easing plugin
+				autoPlay: true,                 // This turns off the entire FUNCTIONALY, not just if it starts running or not.
+				delay: 3000,                    // How long between slide transitions in AutoPlay mode
+				startStopped: false,            // If autoPlay is on, this can force it to start stopped
+				animationTime: 600,             // How long the slide transition takes
+				hashTags: true,                 // Should links change the hashtag in the URL?
+				buildNavigation: true,          // If true, builds and list of anchor links to link to each slide
+				pauseOnHover: true,             // If true, and autoPlay is enabled, the show will pause on hover
+				startText: "Play",              // Start text
+				stopText: "Stop",               // Stop text
+				navigationFormatter: formatText // Details at the top of the file on this use (advanced use)
+			});
+
+			$("#slide-jump").click(function(){
+				$('.anythingSlider').anythingSlider(6);
+			});
+
+		});
+
+	</script>
+
+</head>
+<body>
+<div id="wrap" class="showroom-wrap">
+	<div class="header">
+		<h1><a href="#"><img src="../../images/front/logo.png" alt="WF logo" /><span class="en" lang="en-US">LinkTalk</span></a></h1>
+		<div class="link"><a href="#showroom-cont-3">제품소개서 다운로드</a></div>
+	</div>  <!--// header -->
+
+	<div id="visual">
+		<div class="anythingSlider">
+			<div class="wrapper">
+				<ul>
+					<li class="banner1">
+						<div class="copywrite">
+							<div class="title">
+								<p>
+								빠른 협업을 위한
+								<strong>실시간 커뮤니케이션</strong>
+								</p>
+							</div>
+							<p class="contents">모바일 <span class="en" lang="en-US">Push</span>알림과 실시간 정보전송 기능으로 업무의 빠른 공유와 즉각적인 협업이 가능합니다.</p>
+						</div>
+					</li>
+					<li class="banner2">
+						<div class="copywrite">
+							<div class="title">
+								<p>언제 어디서나 링크톡
+								<strong>멀티 디바이스 지원</strong>
+								</p>
+							</div>
+							<p class="contents">PC, 스마트폰, 태블릿 PC 등 다양한 단말기에서 활용할 수 있어 언제 어디서나 업무처리가 가능하며 별도의 설치없이 모든 브라우저에서 사용할 수 있습니다
+							</p>
+						</div>
+					</li>
+					<li class="banner3">
+						<div class="copywrite">
+							<div class="title">
+								<p>
+								사내 정보를 링크톡으로 통합
+								<strong>채널 기능</strong>
+								</p>
+							</div>
+							<p class="contents">사내의 업무 및 커뮤니케이션 정보를 모바일 링크톡으로 통합관리할 수 있습니다.</p>
+						</div>
+					</li>
+					<li class="banner4">
+						<div class="copywrite">
+							<div class="title">
+								<p>사내 정보를 보호하기 위한 <strong>강력한 보안기능</strong></p>
+							</div>
+							<p class="contents">모든 통신은 암호화 (<span class="en" lang="en-US">ARIA, HTTPS, WSS</span>)하여 전송되고 중요한 업무정보를 외부로부터 안전하게 보호합니다.</p>
+
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div> <!-- // AnythingSlider -->
+	</div><!-- // visual -->	<hr />
+
+	<div id="showroom-container">
+		<div id="showroom-navigation-wrap">
+			<div id="showroom-navigation">
+				<div class="showroom-navigation-inner">
+					<ul class="carspec-area">
+						<li><a href="#showroom-cont-0" class="features">링크톡은?</a></li>
+						<li><a href="#showroom-cont-1" class="price">특장점</a></li>
+						<li><a href="#showroom-cont-2" class="faq">주요기능</a></li>
+						<li><a href="#showroom-cont-3" class="faq">상담 및 체험요청</a></li>
+					</ul>
+					<span class="top"><a href="#" title="페이지 상단으로 이동"><em lang="en-US">Top</em></a></span>
+				</div>
+			</div><!-- showroom-navigation -->
+		</div><!-- showroom-navigation-wrap -->
+		<!-- showroom style -->
+		<div class="showroom-cont-wrap">
+			<div id="showroom-cont-0">
+				<div class="showroom-contents-inner">
+					<h2 class="paragraphTltle">링크톡은?</h2>
+					<p class="paragraphInfo">
+						<em>링크톡은 기업 활동에서의 가장 핵심적 요소인 <strong>‘협업'</strong>과 <strong>‘커뮤니케이션’</strong>을 장소나 기기에 제한 없이 쉽고 빠르게 수행하여 조직 간의 정보 공유를 이끌어 내는 기업 전문 솔루션 입니다.</p>
+					<div class="description conts1">
+						<h3><span class="en" lang="en-US">LinkTalk</span> 도입효과</h3>
+					</div>
+					<div class="pointList">
+						<dl class="point1">
+							<dt>Quick Communication</dt>
+							<dd>
+								<ul>
+									<li>• 모바일 Push 알림, 다자간 실시간 대화의 기능으로 정보를 놓치지 않음</li>
+									<li>• 채널 기능을 활용 사내 정보를 빠르게 처리 가능</li>
+									<li>• 조직도 기반 검색으로 동료를 직관적 검색 가능</li>
+								</ul>
+							</dd>
+						</dl>
+						<dl class="point2">
+							<dt>Smart Work</dt>
+							<dd>
+								<ul>
+									<li>• 통합검색 기능으로 원하는 정보를 한번에 검색</li>
+									<li>• Anytime, Anywhere, Any Device 솔루션으로 언제 어디서나 실시간 업무처리</li>
+									<li>• 동료그룹 기능을 이용하여 반복적인 작업을 줄임</li>
+								</ul>
+							</dd>
+						</dl>
+						<dl class="point3">
+							<dt><span class="en" lang="en-US">Efficient Collaboration</span></dt>
+							<dd>
+								<ul>
+									<li>• 채널 기능을 활용하여 기존 사내 정보를 링크톡으로 공유가 가능 </li>
+									<li>• 편리한 파일 UX 제공하여 자료 공유 편의 제공</li>
+								</ul>
+							</dd>
+						</dl>
+					</div>
+				</div>
+			</div> <!-- showroom-cont-0 -->
+			<div id="showroom-cont-1">
+				<div class="showroom-contents-inner">
+					<h2 class="paragraphTltle"><span class="en" lang="en-US">LinkTalk</span>의 특장점</h2>
+					<ul class="featuresList">
+						<li class="feature1">
+							<div class="paragraph">
+								<h3><strong class="en" lang="en-US">Communication</strong> - 실시간 대화와 알림</h3>
+								<p>업무 진행 시 즉각적인 알림과 실시간 모바일 메신저는 업무를 빠르고 효율적으로 처리할 수 있도록 도와줍니다.</em>
+								</p>
+							</div>
+						</li>
+						<li class="feature2">
+							<div class="paragraph">
+								<h3><strong class="en" lang="en-US">Collaboration</strong> - 효율적인 협업 환경 제공</h3>
+								<p>링크톡 채널 기능을 활용하여 현재 사용중인 사내의 시스템 정보를 링크톡 모바일안에서 사용할 수 있습니다. 더불어 자료 등록 또는 회신을 받을 경우에는 모바일 알람 기능도 연동 됩니다.</em>
+								</p>
+							</div>
+						</li>
+						<li class="feature3">
+							<div class="paragraph">
+								<h3><strong class="en" lang="en-US">Sharing</strong> - 편리한 자료 공유</h3>
+								<p>대화방에서 자료의 송/수신을 직관적인 UX를 도입하여 보다 쉽고 편리하게 공유할 수 있으며 통합검색 기능을 제공하여 대화나 첨부파일을 한번에 검색할 수 있습니다.</p>
+							</div>
+						</li>
+						<li class="feature4">
+							<div class="paragraph">
+								<h3><strong class="en" lang="en-US">Flexible System</strong> - 쉽고 빠른 시스템 적용과 확장</h3>
+								<p>링크톡는 기획 초기부터 <span class="en" lang="en-US">Legacy system</span> 과의 연동 적용을 고려하여 개발하였기 때문에 사내 정보를 링크톡에 쉽게 적용할 수 있습니다. 또한, 사용자 증가에 따른 서버를 병렬로 안전하게 증설할 수 있으므로 대량 사용자의 동시 접속을 원활하게 지원 합니다.</p>
+							</div>
+						</li>
+						<li class="feature5">
+							<div class="paragraph">
+								<h3><strong class="en" lang="en-US">Multi-Device</strong> - 언제 어디서든지 업무처리</h3>
+								<p>링크톡의 온라인 <span class="en" lang="en-US">PC</span>와 모바일 <span class="en" lang="en-US">Smartphone, Tablet PC</span> 등 모든 단말기에서의 실시간 연결 기능은 커뮤니케이션과 업무처리 효과를 극대화합니다</p>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>  <!-- showroom-cont-1 -->
+
+			<div id="showroom-cont-2">
+				<div class="showroom-contents-inner">
+					<h2 class="paragraphTltle"><span class="en" lang="en-US">링크톡</span>의 주요 기능</h2>
+					<p class="paragraphInfo">
+						<em>링크톡는 실시간 커뮤니케이션을 기업의 업무처리 프로세스에 적용하여 편하고 빠르고 편리한 업무처리를 제공합니다.</em>
+					</p>
+					<ul class="functionPoint">
+						<li>
+							<strong>편리한 커뮤니케이션</strong>
+							동료와 대화 및 정보 공유를 편리하게 할 수 있는 UX 및 기능을 제공하여 편리하고 빠른 업무처리를 지원
+						</li>
+						<li>
+							<strong>사내 정보와의 유기적 결합</strong>
+							사내 조직도와의 동기화를 지원하며 사용자에게 직관적인 조직도 화면을 제공 <br />채널 기능을 제공하여 사내의 정보를 링크톡에서 공유 가능 함
+						</li>
+						<li>
+							<strong>편리한 통합 검색 기능</strong>
+							여러 대화방 내의 대화 내용 또는 첨부파일에 대해서 문장을 한번에 통합으로 검색
+						</li>
+						<li>
+							<strong>통신 및 내부 정보 보호</strong>
+							암호화 통신(ARIA, WSS, HTTPS)을 사용하여 네트워크상에서 정보를 보호하며 <br />모바일 기기의 로그인 인증과 더불어 기기 인증을 통해서 제3자의 접근을 금지
+						</li>
+						<li>
+							<strong><span class="en" lang="en-US">Multi-Browser &amp; Multi-Device</span> 지원</strong>
+							IE, Chrome, Safari, Firefox, Opera 등의 멀티 브라우저 지원과 PC 및 모바일(iOS, Android) 앱 지원
+						</li>
+					</ul>
+
+					<table class="functionList" summary="이 표는 총 3열로 구성되었으며 1열은 기능분류, 2열은 주요 기능, 3열은 기능 설명을 나타낸다.">
+						<caption>기본 제공 기능</caption>
+						<colgroup>
+							<col width="150px"/>
+							<col width="200px" />
+							<col width="*;"/>
+						</colgroup>
+						<thead>
+							<tr>
+								<th scope="col">&nbsp;</th>
+								<th scope="col">주요 기능</th>
+								<th scope="col">기능 설명</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<th scope="row" rowspan="4">동료</th>
+								<th><span>동료 관리</span></th>
+								<td><span>사용자 검색 후 동료 추가 및 즐겨 찾기 선택/해제 관리 기능</span></td>
+							</tr>
+							<tr>
+								<th><span>동료 정보</span></th>
+								<td><span>동료의 프로필 정보 보기 및 기능(대화하기, 메일 전송, 전화 걸기)</span></td>
+							</tr>
+							<tr>
+								<th><span>동료 상태정보</span></th>
+								<td><span>PC 메신저의 상태(온라인/오프라인/부재중) 표시 및 모바일 앱 사용 여부 확인</span></td>
+							</tr>
+							<tr>
+								<th><span>그룹 관리</span></th>
+								<td><span>동료 및 사용자 들을 그룹으로 관리</span></td>
+							</tr>
+							<tr>
+								<th scope="row" rowspan="5">대화</th>
+								<th><span>대화 목록</span></th>
+								<td><span>현재 진행 중인 대화 목록</span></td>
+							</tr>
+							<tr>
+								<th><span>기본 대화방</span></th>
+								<td><span>1:1 대화, 그룹 대화(50명)</span></td>
+							</tr>
+							<tr>
+								<th><span>확장 대화방</th>
+								<td><span></span>전체 대화방 (1000명), 공지 대화방 (제한 없음) <span class="ing">(개발 중)</span></td>
+							</tr>
+							<tr>
+								<th><span>사진/파일 전송</span></th>
+								<td><span>편리한 파일을 전달 및 공유 기능</span></td>
+							</tr>
+							<tr>
+								<th><span>스티커 전송</span></th>
+								<td><span>지정된 스티커를 상대방에게 전달</span></td>
+							</tr>
+							<tr>
+								<th scope="row" rowspan="2">조직도</th>
+								<th><span>조직도</span></th>
+								<td><span>계층구조 부서 및 직원 정보 리스트</span></td>
+							</tr>
+							<tr>
+								<th><span>검색</span></th>
+								<td><span>사용자명, 부서명으로 대상 검색</span></td>
+							</tr>
+							<tr>
+								<th scope="row" rowspan="2">채널 (모바일)</th>
+								<th><span>채널 API</span></th>
+								<td><span>공지사항, 신청 게시판 등 그룹웨어의 Data를 공유함</span></td>
+							</tr>
+							<tr>
+								<th><span>채널 화면</span></th>
+								<td><span>목록, 보기, 등록/수정 화면 제공, API 규칙에 맞으면 여러 개의 게시판도 게시 가능</span></td>
+							</tr>
+							<tr>
+								<th scope="row">통합 검색</th>
+								<th><span>통합 검색</span></th>
+								<td><span>검색 단어에 따른 전체 대화방의 대화 내용 및 파일을 검색</span> <span class="ing">(개발 중)</span></td>
+							</tr>
+							<tr>
+								<th scope="row" rowspan="3">환경 설정</th>
+								<th><span>일반 설정</span></th>
+								<td><span>내 프로필 설정 및 기타 설정</span></td>
+							</tr>
+							<tr>
+								<th><span>메시지 및 알람 설정</span></th>
+								<td><span>알림 관리 및 규칙 설정</span></td>
+							</tr>
+							<tr>
+								<th><span>버전 정보</span></th>
+								<td><span>버전 정보 표기 및 업그레이드</span></td>
+							</tr>
+							<tr>
+								<th scope="row" rowspan="5">관리자</th>
+								<th><span>모니터링</span></th>
+								<td><span>사용자 접속현황 및 시스템 상태 관리</span></td>
+							</tr>
+							<tr>
+								<th><span>Log 관리</span></th>
+								<td><span>접속 정보, 에러 정보 로그</span></td>
+							</tr>
+							<tr>
+								<th><span>통계 관리</span></th>
+								<td><span>날자별/시간별 접속자 통계</span></td>
+							</tr>
+							<tr>
+								<th><span>조직 관리</span></th>
+								<td><span>부서 및 사용자 정보 관리 및 자동 동기화 설정</span></td>
+							</tr>
+							<tr>
+								<th><span>디바이스 관리</span></th>
+								<td><span>로그인 제한 및 디바이스 Data 관리자 권한 삭제</span></td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+			</div>  <!-- showroom-cont-2 -->
+
+
+			<div id="showroom-cont-3">
+				<div class="showroom-contents-inner">
+					<h2 class="paragraphTltle">상담 및 체험요청 & 제품소개서 다운로드</h2>
+					<p class="paragraphInfo">
+						<em>링크톡은 고객에게 최적의 솔루션을 제공해드립니다. </em>
+					</p>
+					<div class="contectWrap">Phone: <strong>02-6309-1214</strong> Email: <a href="mailto:linktalk@netville.co.kr">linktalk@netville.co.kr</a></div>
+					<div class="webFormWrap">
+						<div class="form">
+			        <form id="WebToForm" action="Visitor.aspx" method="post" name="WebToForm">
+			        <input type="hidden" id="type" name="p_type" value="" />
+			        <table class="formTable">
+			        <tbody>
+				        <tr>
+					        <td>
+						        <select id="visit_path" name="p_visit_path">
+							        <option value="">-- 방문경로 --</option>
+							        <option value="네이버검색">네이버검색</option>
+							        <option value="다음검색">다음검색</option>
+							        <option value="구글검색">구글검색</option>
+							        <option value="기타온라인광고">기타온라인광고</option>
+							        <option value="블로그">블로그</option>
+							        <option value="페이스북">페이스북</option>
+							        <option value="트위터">트위터</option>
+							        <option value="유튜브">유튜브</option>
+							        <option value="지식인">지식인</option>
+							        <option value="카페">카페</option>
+							        <option value="세미나">세미나</option>
+							        <option value="전시회">전시회</option>
+							        <option value="지면광고">지면광고</option>
+							        <option value="언론보도">언론보도</option>
+							        <option value="지인소개">지인소개</option>
+						        </select>
+					        </td>
+					        <td><input id="company_name" type="text" name="p_company_name" value="" placeholder="회사명" /></td>
+					        <td><input id="dept_name" type="text" name="p_dept_name" value="" placeholder="부서명 " /></td>
+				        </tr>
+				        <tr>
+				        	<td>
+                    <select id="emp_count" name="p_emp_count">
+							        <option value="">-- 직원수 --</option>
+							        <option value="50명 이하">50명 이하</option>
+							        <option value="50~100명">50~100명</option>
+							        <option value="100~500명">100~500명</option>
+							        <option value="500~1000명">500~1000명</option>
+							        <option value="1000명 이상">1000명 이상</option>
+						        </select>
+					        </td>
+					        <td><input id="name" type="text" name="p_name" value="" placeholder="이름" /></td>
+					        <td><input id="grade" type="text" name="p_grade" value="" placeholder="직급" /></td>
+				        </tr>
+				        <tr>
+					        <td><input id="phone" type="text" name="p_phone" value="" placeholder="연락처" /></td>
+					        <td colspan="2"><input id="email" type="text" name="p_email" value="" placeholder="이메일" class="input_email" /></td>
+				        </tr>
+				        </tbody>
+			        </table>
+						</form>
+					</div>
+					<div class="terms">
+						<h4>개인정보 수집 및 이용에 대한 안내</h4>
+						<div class="terms_content">
+							<p><strong>- 수집 및 이용 항목</strong> 방문경로, 회사명, 부서명, 직원 수, 이름, 직급, 연락처, 이메일 </p> <p><strong>- 수집 및 이용 목적</strong> 문의 접수 및 처리 결과 회신</p>
+							<p><strong>- 수집 및 이용 기간</strong>해당 사업 종료하기 전까지 이용(단, 요청 시 삭제) 그 외 문의 내용은 관계법령 및 기타 응대를 위해 개인정보를 보관할 수 있습니다. <br />그 밖에 사항은 개인정보취급방침을 준수 합니다.</p>
+						</div>
+						<div class="agreecheck">
+			        <input id="privacyCheck" type="checkbox" name="privacyCheck" value="true" />
+			        <label for="privacyCheck">위 개인정보 수집 및 이용에 동의합니다.</label>
+		        </div>
+					</div>
+					<div class="buttonWrap">
+						<input type="button" value="상담 및 체험요청" />
+						<input type="button" value="제품소개서 다운로드" />
+					</div>
+				</div>
+			</div>  <!-- showroom-cont-3 -->
+
+			<div class="quickMenu">
+				<ul class="social">
+					<li class="twitter"><a href="#" title="Twitter">Twitter</a></li>
+					<li class="facebook"><a href="#" title="Facebook">Facebook</a></li>
+					<li class="email"><a href="#" title="e-mail">e-mail</a></li>
+					<!-- <li class="download"><a href="#" title="Download Brochure">Download Brochure</a></li> -->
+				</ul>
+				<!-- <ul class="appDown">
+					<li class="android"><a href="#">Android</a></li>
+					<li class="apple"><a href="#">Apple</a></li>
+				</ul> -->
+			</div> <!--// quickMenu -->
+
+		</div> <!-- // showroom-cont-wrap -->
+		<hr />
+		<div id="footer">
+			<!-- <div class="link">
+				<a href="#">회사소개</a> &middot; <a href="#">서비스이용약관</a> &middot; <a href="#">개인정보취급방침</a> &middot; <a href="#">제휴안내</a>
+			</div>
+			<div class="mark">
+				<a href="#" title="Comodo Secure"><img src="../../images/front/mark_comodo.png" alt="Comodo Secure" /></a>
+			</div> -->
+			<ul class="footer-menu-inner">
+				<li>서울시 영등포구 경인로 775, 2-704 (문래동 3가 55-20 에이스하이테크시티)  |  TEL : 02-6309-1200 (대표전화)  |  FAX : 02-6309-1233</li>
+				<li>㈜네트빌 ⓒ 2015 Netville Co., Ltd. All rights reserved. </li>
+			</ul>
+		</div><!--// footer -->
+		<hr />
+	</div> <!-- // showroom-container -->
+</div> <!--// #Wrap showroom-wrap -->
+</body>
+</html>

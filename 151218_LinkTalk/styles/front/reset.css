@@ -1,0 +1,145 @@
+@charset 'utf-8';
+* {
+	margin:0;
+	padding:0;
+	list-style:none;
+	font-style:normal;
+}
+html {
+	overflow-y: scroll;
+}
+img {
+	border:0;
+	vertical-align:top;
+}
+hr {
+	display:none;
+}
+table, th, td {
+	border-collapse:collapse;
+}
+body {
+	position:relative;
+	background:url(../../images/front/bg_body.png) 0 0 repeat-x;
+}
+body, p, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd, table, th, td, form, fieldset, legend, input, textarea, button, select, figure, figcaption {
+	margin:0;
+	padding:0;
+	-webkit-text-size-adjust:none;
+	color:#2b2d2f;
+}
+body, input, textarea, select, button, table {
+	font-family:'Malgun Gothic',Gulim, Helvetica,Arial,sans-serif;
+	font-size:13px;
+	line-height:1.5;
+	-webkit-text-size-adjust:none;
+}
+img {
+	border:0
+}
+ul, ol {
+	list-style:none
+}
+fieldset {
+	border:none
+}
+button {
+	cursor:pointer
+}
+header, hgroup, article, nav, footer, figure, figcaption, canvas, section, time {
+	display:block
+}
+.blind {
+	overflow:hidden;
+	position:absolute;
+	top:0;
+	left:0;
+	width:0;
+	height:0;
+	font-size:0;
+	line-height:0
+}
+a {
+	color:#333;
+	text-decoration:none
+}
+/*a:hover,a:active{text-decoration:underline}*/
+.hide {
+	display:none
+}
+table {
+	border-collapse:collapse;
+	border-spacing: 0;
+}
+em {
+	font-style:normal;
+}
+/* anchor reset */
+a {
+	color:#777;
+	text-decoration:none;
+}
+a:hover {
+	text-decoration:underline;
+}
+a:active, a:visited {
+	text-decoration:none;
+}
+.link-type02 {
+	color:#5591c6;
+	text-decoration:underline;
+}
+.link-type03 {
+	color:#5591c6;
+	font-weight:bold;
+}
+input.txt {
+	height:18px;
+	padding:5px 0 0 4px;
+	border:1px solid #dedede;
+	border-radius:0;
+	background:#fff;
+	color:#777;
+	font-size:12px;
+	vertical-align:middle;
+}
+input.txt2 {
+	height:17px;
+	padding:6px 0 0 4px;
+	border:1px solid #dedede;
+	border-radius:0;
+	background:#fff;
+	color:#777;
+	font-size:11px;
+	vertical-align:middle;
+}
+*+html input.txt {
+	margin-top:-1px;
+}
+*+html input.txt2 {
+	margin-top:-1px;
+}
+:root input.txt {
+	height:23px;
+	padding-top:0;
+}
+:root input.txt2 {
+	height:23px;
+	padding-top:0;
+}
+input.check {
+	width:13px;
+	height:13px;
+	vertical-align:middle;
+}
+textarea {
+	overflow:auto;
+	overflow-x:hidden;
+	font-family:'굴림',Gulim, Helvetica,Arial,sans-serif;
+}
+*+html textarea {
+	margin-top:-1px;
+}
+button {
+	border:0;
+}
